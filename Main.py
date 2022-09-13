@@ -8,9 +8,9 @@ def insertionSort(array) -> List[int]:
             array[num + 1] = array[num]
             num -= 1
         array[num + 1] = key
-    return array
+    return arry
 # data = [9, 5, 1, 4, 3]
-input_data = input
+input_data = input()
 data = []
 for item in input_data.split(', '):
   if item.isnumeric():
