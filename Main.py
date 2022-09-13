@@ -16,5 +16,5 @@ for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
-    data.append(int(item))
-print(insertionSort(data
+    data.append(int(item
+print(insertionSort(data))
