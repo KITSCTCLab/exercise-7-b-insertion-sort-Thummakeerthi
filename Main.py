@@ -11,10 +11,10 @@ def insertionSort(array) -> List[int]:
     return array
 # data = [9, 5, 1, 4, 3]
 input_data = input()
-data = []
+data = 
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
-    data.append(int(item
+    data.append(int(item))
 print(insertionSort(data))
